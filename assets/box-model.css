@@ -1,0 +1,28 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color:cadetblue;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    list-style: none;
+    color: white;
+    display: inline;
+    padding: 10px;
+}
