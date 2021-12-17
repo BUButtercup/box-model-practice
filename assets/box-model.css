@@ -5,6 +5,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/****Header w/ nav bar*****/
+
 header {
     background-color:cadetblue;
     width: 100%;
@@ -16,16 +18,59 @@ h1 {
     color: white;
     position: relative;
     top: 0;
-    left: 0;
+    left: 5px;
 }
 
-ul {
+nav {
     text-align: right;
 }
 
-li {
+a {
     list-style: none;
     color: white;
     display: inline;
     padding: 10px;
+    text-decoration: none;
 }
+
+/*****Main Page*****/
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+section.text {
+    margin: 0 40px;
+}
+
+section.image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+div.square {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black; 
+}
+
+/*****Sidebar*****/
+
+aside {
+    width: 20%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightcyan;
+    float: right;
+    text-align:
+}
+
+p.sidebar {
+    font-size: 0.75em;
+}
+/*****Footer*****/
+
+
