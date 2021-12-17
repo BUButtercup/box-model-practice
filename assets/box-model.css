@@ -12,6 +12,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 99;
 }
 
 h1 {
@@ -44,6 +45,8 @@ section.text {
     margin: 0 40px;
 }
 
+/*****What is it?*****/
+
 section.image {
     display:flex;
     justify-content: center;
@@ -52,23 +55,75 @@ section.image {
 }
 
 div.square {
-    height: 100px;
-    width: 100px;
-    border: 5px solid black; 
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/*****What is the content*****/
+
+div.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    border: 1px solid lightseagreen;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.inside {
+    font-size: 0.75em;
+    text-align: center;
+    font-weight: 700;
+}
+
+/*****What is the border*****/
+
+div#border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px;
+    /*border: 1px solid black;*/
+}
+
+p.top {
+    /*border:1px solid black;*/
+    font-weight: 700;
+    font-size: 0.75em;
+    line-height: 0.75em;
+}
+
+section.image#section-3 {
+    /*border: 1px solid black;*/
+    height: 150px;
 }
 
 /*****Sidebar*****/
 
 aside {
     width: 20%;
+    height: 100vh;
     margin-top: 20px;
     padding: 10px;
     background-color: lightcyan;
     float: right;
-    text-align:
 }
 
 p.sidebar {
+    font-size: 0.75em;
+}
+
+ul.sidebar {
+    padding: 0 20px;
+    list-style: none;
     font-size: 0.75em;
 }
 /*****Footer*****/
