@@ -90,7 +90,7 @@ div#border {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    padding-top: 20px;
+    padding: 20px;
     /*border: 1px solid black;*/
 }
 
@@ -105,6 +105,14 @@ section.image#section-3 {
     /*border: 1px solid black;*/
     height: 150px;
 }
+
+/*****What is the padding*****/
+
+
+
+/*****What is the margin*****/
+
+
 
 /*****Sidebar*****/
 
