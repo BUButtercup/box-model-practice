@@ -3,4 +3,4 @@ This repository is for practicing with the box model in CSS. My purpose is to ad
 
 It will contain an html file, a css file, and supporting images
 
-link to page: https://bubuttercup.github.io/box-model-practice/
+link to page: 
